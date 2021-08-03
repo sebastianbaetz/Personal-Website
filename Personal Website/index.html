@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebastian Baetz's Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/626fd60834.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Back To Top Button-->
+
+    <button id="backToTop"><a href="#top" style="color: white">Top</a></button>
+
+    <!-- Top -->
+
+    <div class="top" id="top"></div>
+
+    <!-- Navbar Section -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar__container">
+        <a href="#top" id="navbar__logo"> Sebastian Baetz </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#biography" class="navbar__links"> Biography </a>
+          </li>
+          <li class="navbar__item">
+            <a href="#projects" class="navbar__links"> Projects </a>
+          </li>
+          <li class="navbar__item">
+            <a href="/tech.html" class="navbar__links"> Resume </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#contactme" class="button"> Contact Me </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main" id="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Hello World!</h1>
+          <h2>Java, Python, SQL, HTML/CSS, ASM</h2>
+          <p>
+            Hi, I'm Sebastian. Welcome to my personal website detailing my
+            journey as a software engineer and my portfolio of academic and
+            personal projects.
+          </p>
+
+          <button class="main__btn">
+            <a href="#biography">Get started!</a>
+          </button>
+        </div>
+
+        <div class="main__img">
+          <img src="images/CroppedHeadshot.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Biography Information Section -->
+
+    <div class="bio" id="biography">
+      <div class="bio__container">
+        <div class="bio__image">
+          <img
+            src="/images/Baetz Cropped.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="bio__content">
+          <h2>A Bit About Myself</h2>
+
+          <p>
+            <br /><br />
+            Howdy! My name is Sebastian Baetz and I am entering my second year
+            at Northeastern University. I am originally from the San Antonio,
+            Texas area where I earned my Associate of Science in Computer
+            Science at Northwest Vista College.
+            <br /><br />
+            I am interested in back-end development primarily, I enjoy working
+            with databases and creating the logic needed to work harmoniously
+            with the front-end while creating extensible software.
+            <br /><br />
+            My favorite languages to work in are Java and Python, and I have
+            been learning SQL and HTML/CSS while pursuing projects which you can
+            find out more about
+            <a href="index.html#projects">here</a>. One of my favorite classes
+            from my Associate's program had a unit on Assembly which I throughly
+            enjoyed as well. <br /><br />
+            Outside of tech, I am an avid golfer, cyclist, amateur chef, and
+            avid bookworm who loves to teach and help others in their pursuit of
+            fun.
+            <br /><br />
+            I am currently looking for co-op and internship positions for the
+            2022 Spring co-op cycle (Janurary 2022 through June 2022). If you
+            would like to learn more about me, here is
+            <a href="index.html">my resume</a>, and if you would like to have a
+            chat, feel free to
+            <a href="index.html#contactme">contact me here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="projects" id="projects">
+      <h1>Featured Projects</h1>
+
+      <a href="allProjects.html" id="expand__projects">
+        <p>See All Projects <i class="fas fa-arrow-right"></i></p>
+      </a>
+
+      <div class="project__container__lime">
+        <div class="project__item">
+          <div class="project__content__lime on__left">
+            <h2>LIME: Layered Image Manipulation and Enhancement</h2>
+
+            <h3>May 2021 - June 2021</h3>
+
+            <p>
+              LIME is the second project from my Object-Oriented Design class
+              (CS 3500). It uses a Java Swing GUI to display certain image
+              manipulation features to the user. Some features are sharpen/blur,
+              greyscale/sepia, multi-layer image import/export, and PNG/JPEG
+              support. <br /><br />
+
+              This project was a great learning experience for me because I
+              learned how to add to and test a large codebase (much larger than
+              I have previously worked with) that I co-wrote. Additionally, this
+              project stressed the importance of good design choices, as
+              information would be omitted about what we need to do until it
+              would certainly break bad designs. Throughout this assignment, I
+              believe our design choices were well thought out.
+            </p>
+
+            <a
+              href="https://github.com/sebastianbaetz/LIMEImageManipulation/tree/main/hwk07"
+            >
+              <i class="fab fa-github"></i>
+              Link to my code -
+            </a>
+
+            <a href="">
+              <i class="fab fa-youtube"></i>
+              See the code in action (Coming soon!)
+            </a>
+          </div>
+
+          <div class="project__image__lime">
+            <img
+              src="images/LIMEImageAfter.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="project__container__solitaire">
+        <div class="project__item">
+          <div class="project__image__soitaire on__left">
+            <img src="images/Solitaire.png" alt="" />
+          </div>
+
+          <div class="project__content__solitaire">
+            <h2>Freecell Solitare</h2>
+
+            <h3>May 2021 - June 2021</h3>
+
+            <p>
+              This text-based freecell solitaire game was my first
+              Object-Oriented Design (CS 3500) project. We were assigned parts
+              of this project over three waves, each following wave would
+              determine if we made the correct design choices. Along the way I
+              made tweaks to my initial design to fit SOLID principles. The
+              biggest challenge of this project for me was keeping the game
+              rules to fit the standard freecell game, while simultaneously
+              allowing for the possiblility of some new solitaire game to be
+              added in the future, open to extension but closed for
+              modification. <br /><br />
+
+              This project also introduced me to JUnit testing, which I used
+              very heavily in my test-driven development from this point on. I
+              found it to be a necessity to ensure my code worked as intended,
+              and always wrote tests first, then started the program logic.
+            </p>
+
+            <a
+              href="https://github.com/sebastianbaetz/FreecellSolitaire/tree/main/Finished%20Freecell%20Solitaire"
+            >
+              <i class="fab fa-github"></i>
+              Link to my code -
+            </a>
+
+            <a href="">
+              <i class="fab fa-youtube"></i>
+              See the code in action (Coming soon!)
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Contact Me Section -->
+
+    <div class="contact__me" id="contactme">
+      <h1>Contact Me</h1>
+
+      <p>
+        <br /><br />
+        I can be reached on a variety of platforms, but the best way to get in
+        contact with me is via my email at
+        <a href="mailto:baetz.s@northeastern.edu">baetz.s@northeastern.edu</a>.
+        I am also reachable on the platforms down below. <br /><br />
+      </p>
+
+      <div class="contact__me__icons">
+        <a href="mailto:baetz.s@northeastern.edu">
+          <p></p>
+          <i class="fas fa-envelope-open-text fa-3x"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sebastian-javier-baetz/">
+          <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+
+        <a href="https://github.com/sebastianbaetz">
+          <i class="fab fa-github fa-3x"></i>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UC3nsGTOIupvyMjMpBLUzZIw">
+          <i class="fab fa-youtube fa-3x"></i>
+        </a>
+      </div>
+
+      <p>
+        <br /><br />
+        I appreciate the time taken to view my personal website. I spent many
+        hours between tutorials, documentation, and YouTube videos learning how
+        to create this site, and I started to learn that I enjoy front-end work
+        just as much as anything else. If you have any comments, concerns, or
+        critiques, please reach out to me! I read every response and take every
+        oppertunity to learn and improve myself. Once again, thank you for your
+        visit.
+      </p>
+    </div>
+
+    <hr />
+
+    <!-- Footer Section-->
+
+    <div class="footer__container">
+      <h3>Sebastian Baetz</h3>
+
+      <div class="footer__links">
+        <div class="footer__links__top">
+          <a href="sitemap.html">Sitemap</a>
+          <a href="index.html#biography">Biography</a>
+          <a href="index.html#projects">Featured Projects</a>
+        </div>
+
+        <div class="footer__links__bottom">
+          <a href="allProjects.html">All Projects</a>
+          <a href="/">Resume</a>
+          <a href="index.html#contactme">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="footer__icons">
+        <a href="mailto:baetz.s@northeastern.edu">
+          <p></p>
+          <i class="fas fa-envelope-open-text fa-2x"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sebastian-javier-baetz/">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+
+        <a href="https://github.com/sebastianbaetz">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UC3nsGTOIupvyMjMpBLUzZIw">
+          <i class="fab fa-youtube fa-2x"></i>
+        </a>
+      </div>
+
+      <p>Made with love in San Antonio, Texas</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

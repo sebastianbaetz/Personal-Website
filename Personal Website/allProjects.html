@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/626fd60834.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Back To Top Button-->
+
+    <button id="backToTop">
+      <a href="#topAllProjects" style="color: white">Top</a>
+    </button>
+
+    <!-- Top -->
+
+    <div class="topAllProjects" id="topAllProjects"></div>
+
+    <!-- Navbar Section -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar__container">
+        <a href="index.html#top" id="navbar__logo"> Sebastian Baetz </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html#biography" class="navbar__links"> Biography </a>
+          </li>
+          <li class="navbar__item">
+            <a href="index.html#projects" class="navbar__links"> Projects </a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links"> Resume </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="index.html#contactme" class="button"> Contact Me </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <div class="all__projects" id="all__projects">
+      <h1>All Projects</h1>
+
+      <br />
+
+      <p>Sorted Newest First <br><br></p>
+
+      <div class="project__container__lime">
+        <div class="project__item">
+          <div class="project__content__lime on__left description">
+            <h2>LIME: Layered Image Manipulation and Enhancement</h2>
+
+            <h3>May 2021 - June 2021</h3>
+
+            <p>
+              LIME is the second project from my Object-Oriented Design class
+              (CS 3500). It uses a Java Swing GUI to display certain image
+              manipulation features to the user. Some features are sharpen/blur,
+              greyscale/sepia, multi-layer image import/export, and PNG/JPEG
+              support. <br /><br />
+
+              This project was a great learning experience for me because I
+              learned how to add to and test a large codebase (much larger than
+              I have previously worked with) that I co-wrote. Additionally, this
+              project stressed the importance of good design choices, as
+              information would be omitted about what we need to do until it
+              would certainly break bad designs. Throughout this assignment, I
+              believe our design choices were well thought out.
+            </p>
+
+            <a
+              href="https://github.com/sebastianbaetz/LIMEImageManipulation/tree/main/hwk07"
+            >
+              <i class="fab fa-github"></i>
+              Link to my code -
+            </a>
+
+            <a href="">
+              <i class="fab fa-youtube"></i>
+              See the code in action (Coming soon!)
+            </a>
+          </div>
+
+          <div class="project__image__lime image">
+            <img src="images/LIMEImageAfter.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project__container__solitaire">
+        <div class="project__item">
+          <div class="project__image__solitaire on__left image">
+            <img src="images/Solitaire.png" alt="" />
+          </div>
+
+          <div class="project__content__solitaire description">
+            <h2>Freecell Solitare</h2>
+
+            <h3>May 2021 - June 2021</h3>
+
+            <p>
+              This text-based freecell solitaire game was my first
+              Object-Oriented Design (CS 3500) project. We were assigned parts
+              of this project over three waves, each following wave would
+              determine if we made the correct design choices. Along the way I
+              made tweaks to my initial design to fit SOLID principles. The
+              biggest challenge of this project for me was keeping the game
+              rules to fit the standard freecell game, while simultaneously
+              allowing for the possiblility of some new solitaire game to be
+              added in the future, open to extension but closed for
+              modification. <br /><br />
+
+              This project also introduced me to JUnit testing, which I used
+              very heavily in my test-driven development from this point on. I
+              found it to be a necessity to ensure my code worked as intended,
+              and always wrote tests first, then started the program logic.
+            </p>
+
+            <a
+              href="https://github.com/sebastianbaetz/FreecellSolitaire/tree/main/Finished%20Freecell%20Solitaire"
+            >
+              <i class="fab fa-github"></i>
+              Link to my code -
+            </a>
+
+            <a href="">
+              <i class="fab fa-youtube"></i>
+              See the code in action (Coming soon!)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project__container__website">
+        <div class="project__item">
+          <div class="project__content__website on__left description">
+            <h2>My Website</h2>
+
+            <h3>April 2021 - August 2021</h3>
+
+            <p>
+              This is the website you are currently on! I created this to show
+              off my projects and taught myself how to create a website in the
+              meantime. It's a simple HTML/CSS webpage with a single cosmetic JS
+              app, that I am currently in the process of making responsive. I
+              enjoyed the process very much and constantly work to improve the
+              site.
+            </p>
+
+            <a href="/">
+              <i class="fab fa-github"></i>
+              Link to my code
+            </a>
+          </div>
+
+          <div class="project__image__website image">
+            <img src="images/Website.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project__container__xkcdpwgen">
+        <div class="project__item">
+          <div class="project__image__xkcdpwgen on__left image">
+            <img src="images/XKCD.png" alt="" />
+          </div>
+
+          <div class="project__content__xkcdpwgen description">
+            <h2>XKCD Style Password Generator</h2>
+
+            <h3>May 2021</h3>
+
+            <p>
+              This project was based off of the XKCD Comic
+              <a href="https://xkcd.com/936/">found here</a> for an assignment
+              in my Cybersecurity class. This was my first academic project in
+              Python, and especially so using the argParse library to accomodate
+              command line behaviour. While this was a smaller project, I
+              enjoyed it very much. We were given the liberty of choosing any
+              language for this assignment, and I wanted to use it to reinforce
+              the Python I learned in community college.
+            </p>
+
+            <a
+              href="https://github.com/sebastianbaetz/cy2550/tree/main/project3"
+            >
+              <i class="fab fa-github"></i>
+              Link to my code -
+            </a>
+
+            <a href="">
+              <i class="fab fa-youtube"></i>
+              See the code in action (Coming soon!)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project__container__mazegensolve">
+        <div class="project__item">
+          <div class="project__content__mazegensolve on__left description">
+            <h2>Maze Generator and Breadth-First and Depth-First Solver</h2>
+
+            <h3>April 2021 - May 2021</h3>
+
+            <p>
+              This was the final project for my Fundamentals of CS II class.
+              Initially, this project used Kruskal's Algorithm to generate
+              minimum spanning trees which are perfect for maze generation. This
+              was expanded with a new requirement: implement depth-first and
+              breadth-first searching on this maze. My partner and I bolstered
+              our previous design for extra credit by creating hexagonal mazes
+              as a feature by pressing 'h'. Regular square mazes are default.
+            </p>
+
+            <a href="https://github.com/sebastianbaetz/MazeGenSolver">
+              <i class="fab fa-github"></i>
+              Link to my code -
+            </a>
+
+            <a href="">
+              <i class="fab fa-youtube"></i>
+              See the code in action (Coming soon!)
+            </a>
+          </div>
+
+          <div class="project__image__mazegensolve image">
+            <img src="images/MazeGenSolve.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project__container__floodit">
+        <div class="project__item">
+          <div class="project__image__floodit on__left image">
+            <img src="images/Floodit.png" alt="" />
+          </div>
+
+          <div class="project__content__floodit description">
+            <h2>FloodIt</h2>
+
+            <h3>March 2021 - April 2021</h3>
+
+            <p>
+              Floodit is a game where you start off in the top left corner, and
+              must turn the entire board that color in the limited number of
+              moves. The example we were given can be
+              <a href="https://www.unixpapa.com/floodit/">found here</a>.
+              Similar to Mastermind (next), this was also a challenge working
+              with the image library to manipulate the colors the way we needed.
+              Ultimately, we were successful using it, and managed to get extra
+              credit as well.
+            </p>
+
+            <a href="https://github.com/sebastianbaetz/FloodIt">
+              <i class="fab fa-github"></i>
+              Link to my code -
+            </a>
+
+            <a href="">
+              <i class="fab fa-youtube"></i>
+              See the code in action (Coming soon!)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project__container__mastermind">
+        <div class="project__item">
+          <div class="project__content__mastermind on__left description">
+            <h2>Mastermind</h2>
+
+            <h3>Feburary 2021 - March 2021</h3>
+
+            <p>
+              Mastermind is a single-player game where you must solve the hidden
+              code, using nothing more to help than the hints received
+              pertaining to direct matches and indirect matches. This project
+              was a big challenge for my partner and I because of the image
+              library that we needed to work with, but it served as a great
+              lesson into using third-party Java libraries.
+            </p>
+
+            <a href="https://github.com/sebastianbaetz/Mastermind">
+              <i class="fab fa-github"></i>
+              Link to my code -
+            </a>
+
+            <a href="">
+              <i class="fab fa-youtube"></i>
+              See the code in action (Coming soon!)
+            </a>
+          </div>
+
+          <div class="project__image__mastermind image">
+            <img src="images/Mastermind.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Footer Section-->
+
+    <div class="footer__container">
+      <h3>Sebastian Baetz</h3>
+
+      <div class="footer__links">
+        <div class="footer__links__top">
+          <a href="sitemap.html">Sitemap</a>
+          <a href="index.html#biography">Biography</a>
+          <a href="index.html#projects">Featured Projects</a>
+        </div>
+
+        <div class="footer__links__bottom">
+          <a href="allProjects.html">All Projects</a>
+          <a href="/">Resume</a>
+          <a href="index.html#contactme">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="footer__icons">
+        <a href="mailto:baetz.s@northeastern.edu">
+          <p></p>
+          <i class="fas fa-envelope-open-text fa-2x"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sebastian-javier-baetz/">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+
+        <a href="https://github.com/sebastianbaetz">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UC3nsGTOIupvyMjMpBLUzZIw">
+          <i class="fab fa-youtube fa-2x"></i>
+        </a>
+      </div>
+
+      <p>Made with love in San Antonio, Texas</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
