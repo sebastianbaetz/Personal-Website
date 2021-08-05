@@ -148,8 +148,8 @@ img{
   background-color: #141414;
   z-index: 1;
   width: 100%;
-  /*max-width: 1300px;*/
-  padding: 50px 50px 50px 50px;
+  max-width: 1300px;
+  padding: 100px 50px 150px 50px;
 }
 
 .main__content {
@@ -188,14 +188,14 @@ img{
 }
 
 .main__img {
-  margin-right: 100px;
+  padding-left: 6%;
   float: left;
 }
 
 .main__img img {
   border-radius: 50%;
-  width: 75%;
-  height: 75%;
+  max-width: 65%;
+  max-height: 65%;
 }
 
 .main__btn {
@@ -257,25 +257,26 @@ img{
   align-items: center;
   height: 100%;
   scroll-margin-top: 20px;
+  padding: 50px;
 }
 
 .bio__container {
   display: flex;
   align-items: center;
-  margin: 0 auto;
-  padding: 0 50px;
+  padding-left: 5%;
   height: 100%;
   max-width: 1300px;
 }
 
 .bio__image {
   float: left;
+  
 }
 
 .bio__image img {
   border-radius: 50%;
-  height: 75%;
-  width: 75%;
+  max-height: 60%;
+  max-width: 60%;
 }
 
 .bio__content {
@@ -358,19 +359,18 @@ hr {
   transition: all 0.3s ease;
 }
 
-.image {
+/*.image {
   flex: 1;
   max-height: 250px;
   max-width: 250px;
-}
+}*/
 
-.description {
+/*.description {
   flex: 1;
-}
+}*/
 
 .project__item {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   
@@ -386,7 +386,7 @@ hr {
 }
 
 .project__image__lime {
-  
+  width: 100%;
 }
 
 .project__container__solitaire {
@@ -400,9 +400,8 @@ hr {
 }
 
 .project__image__solitaire {
-  
-  /*Not resizing, need to make images consistently sized TODO*/
-
+  max-width: 300px;
+  width: 150%;
 }
 
 .project__content__solitaire {
@@ -479,7 +478,8 @@ hr {
 }
 
 .project__image__xkcdpwgen {
-  
+  max-width: 250px;
+  width: 150%;
 }
 
 .project__content__xkcdpwgen {
@@ -515,8 +515,8 @@ hr {
 }
 
 .project__image__floodit {
-  
-
+  max-width: 200px;
+  width: 150%;
 }
 
 .project__content__floodit {
@@ -535,7 +535,8 @@ hr {
 }
 
 .project__image__mastermind {
-  
+  max-width: 200px;
+  width: 150%;
 }
 
 .project__content__mastermind {
