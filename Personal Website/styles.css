@@ -377,7 +377,12 @@ hr {
 }
 
 .project__container__lime {
-  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   max-width: 1300px;
 }
 
@@ -405,8 +410,22 @@ hr {
 }
 
 .project__content__solitaire {
- 
-  
+
+}
+
+.project__container__webcrawler {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 1300px;
+}
+
+.project__image__webcrawler {
+  max-width: 300px;
+  width: 150%;
 }
 
 /* All Projects CSS */
