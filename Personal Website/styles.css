@@ -428,6 +428,21 @@ hr {
   width: 150%;
 }
 
+.project__container__knearest {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 1300px;
+}
+
+.project__image__knearest {
+  max-width: 300px;
+  width: 150%;
+}
+
 /* All Projects CSS */
 
 .all__projects {
